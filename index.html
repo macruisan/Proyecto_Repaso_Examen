@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="MCarmen Ruiz Sánchez">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="página con etiquetas y estilos para practicar">
-    <meta name="keywords" content="etiquetas, html, estilos, css, repaso, examen">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="MCarmen Ruiz Sánchez" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="página con etiquetas y estilos para practicar"
+    />
+    <meta
+      name="keywords"
+      content="etiquetas, html, estilos, css, repaso, examen"
+    />
     <title>Proyecto Repaso</title>
-    <link rel="icon" href="./icons/libro.png" type="icon/png" sizes="16x16">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="icon" href="./icons/libro.png" type="icon/png" sizes="16x16" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>BLOG DE MANGA Y ANIME</h1>
+        <h2>Noticias y novedades sobre el mundo del manga y el anime</h2>
+        <br>
+        <nav>
+            <ul class="nav-links">
+                <li><img src="./buttons/button_anime.png" alt="boton anime"></li>
+                <li><img src="./buttons/button_manga.png" alt="boton manga"></li>
+            </ul>
+        </nav>
+        <figure>
+            <picture>
+                <source media="(max-width: 799px)" srcset="./images/imagen_cabecera_blog_400px.jpg">
+                <source media="(min-width: 800px)" srcset="./images/imagen_cabecera_blog_800px.jpg">
+                <img src="./images/imagen_cabecera_blog_800px.jpg" alt="Imagen portada blog">
+            </picture>
+        </figure>
+    </header>
+  </body>
 </html>

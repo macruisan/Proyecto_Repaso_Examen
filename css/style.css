@@ -1,0 +1,29 @@
+/* Estilos para el encabezado */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links hover {
+    transform: scale(1.1);
+}
+
+.nav-links a {
+    font-size: 10px;
+}
