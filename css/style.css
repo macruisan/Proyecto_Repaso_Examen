@@ -1,3 +1,8 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: rgb(240,240,240);
+}
+
 /* Estilos para el encabezado */
 header {
     background-color: black;
@@ -26,4 +31,117 @@ nav {
 
 .nav-links a {
     font-size: 10px;
+}
+
+/* Estilos footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos ID para encabezados por secciones */
+
+#anime {
+    background-color: rgb(73, 150, 132);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#manga {
+    background-color: rgb(72, 44, 44);
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para el contenedor imagen */
+
+figure {
+    margin: 0 auto;
+    padding: 0;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
+.videocentrado {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para los párrafos */
+
+p {
+    font-family: 'Reboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Estilos para enlaces */
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+/* Estilos para encabezados */
+
+h1 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Estilos para la clase noticia */
+
+.noticia {
+    background-color: gray;
+    max-width: 800px; /*ancho máximo del contenedor*/
+    margin: 0 auto; /*centrar horizontalmente el contenedor*/
+    padding: 10px;
+}
+
+.noticiaIndex {
+    background-color: gray;
+    max-width: 800px; /*ancho máximo del contenedor*/
+    margin: 0 auto; /*centrar horizontalmente el contenedor*/
+    padding: 10px;
 }
