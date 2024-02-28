@@ -22,7 +22,7 @@ nav {
 
 .nav-links li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 .nav-links hover {
@@ -144,4 +144,20 @@ h4 {
     max-width: 800px; /*ancho máximo del contenedor*/
     margin: 0 auto; /*centrar horizontalmente el contenedor*/
     padding: 10px;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: rgb(229, 219, 203);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Reboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilos para la clase botonCentrado */
+.botonCentrado {
+    display: flex;
+    justify-content: center;
 }

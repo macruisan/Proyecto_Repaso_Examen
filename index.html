@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="MCarmen Ruiz Sánchez" />
-    <meta name="robots" content="index,follow" />
-    <meta
-      name="description"
-      content="página con etiquetas y estilos para practicar"
-    />
-    <meta
-      name="keywords"
-      content="etiquetas, html, estilos, css, repaso, examen"
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MCarmen Ruiz Sánchez">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="página con etiquetas y estilos para practicar">
+    <meta name="keywords" content="etiquetas, html, estilos, css, repaso, examen">
     <title>Proyecto Repaso</title>
-    <link rel="icon" href="./icons/libro.png" type="icon/png" sizes="16x16" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./icons/libro.png" type="icon/png" sizes="16x16">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
       <h1>BLOG DE MANGA Y ANIME</h1>
       <h2>Noticias y novedades sobre el mundo del manga y el anime</h2>
-      <br />
+      <br>
       <nav>
         <ul class="nav-links">
-          <li>
-            <a href="#anime"
-              ><img src="./buttons/button_anime.png" alt="boton anime"
-            /></a>
-          </li>
-          <li><a href="#manga"><img src="./buttons/button_manga.png" alt="boton manga" /></a></li>
+          <li><a href="#anime"><img src="./buttons/button_anime.png" alt="boton anime"></a></li>
+          <li><a href="#manga"><img src="./buttons/button_manga.png" alt="boton manga"></a></li>
+          <li><a href="./articles/formulario.html"><img src="./buttons/button_formulario.png" alt="boton formulario"></a></li>
         </ul>
+        
       </nav>
       <figure>
         <picture>
-          <source
-            media="(max-width: 799px)"
-            srcset="./images/imagen_cabecera_blog_400px.jpg"
-          />
-          <source
-            media="(min-width: 800px)"
-            srcset="./images/imagen_cabecera_blog_800px.jpg"
-          />
-          <img
-            src="./images/imagen_cabecera_blog_800px.jpg"
-            alt="Imagen portada blog"
-          />
+          <source media="(max-width: 799px)" srcset="./images/imagen_cabecera_blog_400px.jpg">
+          <source media="(min-width: 800px)" srcset="./images/imagen_cabecera_blog_800px.jpg">
+          <img src="./images/imagen_cabecera_blog_800px.jpg" alt="Imagen portada blog">
         </picture>
       </figure>
     </header>
+
     <main>
       <section id="anime">
         <h2>ANIME</h2>
@@ -64,15 +48,9 @@
           <a href="./articles/onepiece_anime.html">
             <figure>
                 <picture>
-                  <source
-                    media="(max-width: 799px)"
-                    srcset="./images/one-piece_400px.jpg"
-                  />
-                  <source
-                    media="(min-width: 800px)"
-                    srcset="./images/one-piece_800px.jpg"
-                  />
-                  <img src="./images/one-piece_800px.jpg" alt="imagen one piece" />
+                  <source media="(max-width: 799px)" srcset="./images/one-piece_400px.jpg">
+                  <source media="(min-width: 800px)" srcset="./images/one-piece_800px.jpg">
+                  <img src="./images/one-piece_800px.jpg" alt="imagen one piece">
                 </picture>
                 <figcaption style="text-align: center;">Luffy y su tripulación</figcaption>
               </figure>
@@ -82,6 +60,7 @@
           </a>
         </article>
       </section>
+
       <section id="manga">
         <h2>MANGA</h2>
         <article  class="noticiaIndex">
@@ -91,15 +70,9 @@
             <a href="./articles/berserk_manga.html">
                 <figure>
                     <picture>
-                      <source
-                        media="(max-width: 799px)"
-                        srcset="./images/berserk_400px.jpg"
-                      />
-                      <source
-                        media="(min-width: 800px)"
-                        srcset="./images/berserk_800px.jpg"
-                      />
-                      <img src="./images/berserk_800px.jpg" alt="imagen berserk" />
+                      <source media="(max-width: 799px)" srcset="./images/berserk_400px.jpg">
+                      <source media="(min-width: 800px)" srcset="./images/berserk_800px.jpg">
+                      <img src="./images/berserk_800px.jpg" alt="imagen berserk">
                     </picture>
                     <figcaption style="text-align: center">Berserk</figcaption>
                   </figure>
@@ -108,6 +81,7 @@
         </article>
       </section>
     </main>
+
     <footer>
         <h4>Autora: MCarmen Ruiz Sánchez</h4>
         <h4>1DAW 23/24</h4>

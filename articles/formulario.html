@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="MCarmen Ruiz Sánchez">
+    <meta name="description" content="formulario de suscripción al blog">
+    <meta name="keywords" content="formulario, datos, suscripcion">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../icons/libro.png" type="icons/png" sizes="16x16">
+  </head>
+  <body>
+    <header id="formulario">
+      <h1>Formulario de suscripción</h1>
+    </header>
+
+    <main>
+        <form id="formulario" name="formulario_suscripcion" action="mailto:mcarmen.rs79@gmail.com" method="post" target="_blank" enctype="text/plain">
+      
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" size="25" autofocus>
+                <br>
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" name="apellidos" id="apellidos" size="25" required>
+                <br>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label><br>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+                <br>
+                <label for="username">Nombre de Usuario:</label><br>
+                <input type="text" name="username" id="username" size="25" pattern="[a-zA-Z0-9]" placeholder="solo números y letras" required>
+                <br />
+                <label for="contraseña">Contraseña:</label><br>
+                <input type="password" name="contraseña" id="contraseña" size="25" autocomplete="on" maxlength="10" minlength="6" placeholder="min 6 y max 10 caracteres" required>
+                <br>
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" name="telefono" id="telefono" size="25">
+                <br>
+                <label for="email">Indique su correo electrónico:</label><br>
+                <input type="email" name="email" id="email" size="25" placeholder="correo@dominio.com/es" required>
+                <br>
+                <label for="provincia">Seleccione su provincia</label><br>
+                <select name="provincia" id="provincia" multiple required size="5">
+                    <option value="ov">Provincia</option>
+                    <optgroup label="Andalucía">
+                        <option value="se">Sevilla</option>
+                        <option value="al">Almería</option>
+                        <option value="hu">Huelva</option>
+                        <option value="ca">Cádiz</option>
+                        <option value="co">Córdoba</option>
+                        <option value="gra">Granada</option>
+                        <option value="ma">Málaga</option>
+                        <option value="ja">Jaén</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Suscríbase a las noticias que le interesen:</legend>
+
+                <label for="manga">Manga</label><br>
+                <input type="checkbox" name="manga" id="manga" value="manga">
+                <br>
+                <label for="anime">Anime</label><br>
+                <input type="checkbox" name="anime" id="anime">
+                <br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Indique su anime favorito</legend>
+
+                <label for="onepiece">One Piece</label><br>
+                <input type="radio" name="anime" id="onepiece" value="onepiece">
+                <br>
+                <label for="guardianesdelanoche">Guardianes de la noche</label><br>
+                <input type="radio" name="anime" id="guardianesdelanoche" value="guardianesdelanoche">
+                <br>
+                <label>Indique el rango de preferencia de los siguientes anime:</label><br>
+                <label for="range"><strong>Ataque a los titanes</strong></label><br>
+                <input type="range" name="range" id="range" min="0" max="10" step="1">
+                <br>
+                <label for="range"><strong>Kimetsu no yaiba</strong></label><br>
+                <input type="range" name="range" id="range" min="0" max="10" step="1">
+                <br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Comentarios:</legend>
+
+                <label for="comentario">Deja aquí tu mensaje:</label><br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="máximo 300 caracteres"></textarea>
+                <br>
+            </fieldset>
+            <div class="botonCentrado" >
+                <button type="submit" value="enviar" name="enviar" id="enviar"><img src="../buttons/button_enviar.png" alt="boton enviar" width="100%"></button>
+                <button type="reset" value="resetear" name="resetear" id="resetear"><img src="../buttons/button_resetear.png" width="100%"></button>
+            </div>    
+        </form>
+    </main>
+
+    <footer>
+        <h4>Autora: MCarmen Ruiz Sánchez</h4>
+        <h4>1DAW 23/24</h4>
+        <h4>IES Almudeyne</h4>
+    </footer>
+  </body>
+</html>
